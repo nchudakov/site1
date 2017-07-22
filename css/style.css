@@ -1,0 +1,139 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@font-face {
+  font-family: 'Comfortaa';
+  font-weight: cursive;
+}
+
+@media (max-width: 1170px) and (min-width: 992px){
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+  .block1, .block2, .block3, .block4, .block5, .block6{
+    width: 47%;
+    float: left;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 767px){
+  .block1, .block2, .block3, .block4, .block5, .block6{
+    width: 95%;
+    float: left;
+    margin: 10px;
+  }
+}
+
+.page {
+  font-family: 'Comfortaa';
+  background-color: #BDF6F3;
+}
+
+.blocks h1{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding-left: 2%;
+  padding-top: 2%;
+  text-transform: uppercase;
+}
+
+header {
+  height: 50px;
+  background-color: #2E64ED;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /*background-image: linear-gradient(to bottom, #2E64ED, #9DE1DE);*/
+}
+
+.logo {
+  padding-left: 3%;
+  font-size: 1.5rem;
+}
+
+.blocks {
+  min-height: 85vh;
+  background-color: #9DE1DE;
+  background-image: linear-gradient(to bottom, #9DE1DE, #BDF6F3);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.block1, .block2, .block3, .block4, .block5, .block6 {
+  color: black;
+  min-width: 310px;
+  width: 30vw;
+  height: 30vh;
+  margin: auto;
+  background-color: #B4BCC0;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 250px;
+  justify-content: space-between;
+
+}
+
+.button1, .button2 {
+  height: 60px;
+  width: 100px;
+  display: flex;
+  background-color: #2E64ED;
+  align-items: center;
+  float: left;
+  color: black;
+  padding-left: 5%;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.more{
+  display: flex;
+	margin: 30px;
+	width: 130px;
+  height: 60px;
+	padding-left: 2%;
+  background-color: #2E64ED;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.more a {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  color: blue;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #BDF6F3, #51F6F1);
+  /*background-image: linear-gradient(to right, #A5F60E, #DCFA46);*/
+}
+
+.copyright, .mail {
+  width: 50%;
+}
+
+.mail {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2%;
+}
+
+.copyright {
+  padding-left: 2%;
+}
